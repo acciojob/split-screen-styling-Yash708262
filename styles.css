@@ -1,1 +1,57 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    display: flex; 
+}
+#navigation-bar {
+    background-color: #D7E8D4;
+    width:16.66%;
+    height: 100vh;
+    padding:1rem;
+}
+
+header {
+    background-color: yellowgreen;
+    padding:1rem;
+    height: 20%;
+}
+
+footer {
+    background-color: yellowgreen;
+    padding:1rem;
+    height: 20%;
+}
+
+#content-section {
+    width:80%;
+     padding:1rem;
+}
+
+#article-section {
+    width:75%;
+    min-height: 60vh;
+     padding:1rem;
+}
+
+
+#main-content {
+    width: 83.33%; 
+    display: flex;
+    flex-direction: column;
+}
+
+#content-section {
+    display: flex; 
+}
+
+#article-section {
+    width: 75%; 
+    min-height: 60vh;
+    padding: 1rem;
+    
+}
+
+#aside-section {
+    width: 25%; 
+    padding: 1rem;
+}
